@@ -11,7 +11,7 @@ import Header from './Header'
 
 const App = () => {
   return (
-    <div className="ui container">
+    <div className="ui container" style={{ marginTop: "0.5rem" }}>
       <BrowserRouter>
         <div>
           <Header />
